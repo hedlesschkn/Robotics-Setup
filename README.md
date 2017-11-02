@@ -1,11 +1,10 @@
 # MakerLab Robotics
 
-Alt-H2 Purpose
-------
+## Purpose:
 Our goal is to provide open source documentation and tutorials for all robotics projects done on Brandeis University.
 
 **Contributors:**
-        ..* Tim Hebert
-        ..* Jonas Tjahjadi
+        1. Tim Hebert
+        2. Jonas Tjahjadi
         
 
