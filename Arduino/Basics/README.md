@@ -21,8 +21,7 @@ A lot of these features may also appear on other boards, as they are __standard 
 ## IDE Concepts
 Arduino is a set of C/C++ functions that can be called on your code, which is passed onto its own compiler. Sketches are *.ino* files, and for those who become advanced, you may eventually have to write your own libraries in *.h* files.  
 TODO:
-Setting Up Arduino
-Ports (COM)
+Setting Up Arduino COM ports
 
 setup / loops
 Writing Your First Program
