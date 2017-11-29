@@ -3,13 +3,6 @@
 // Again, go to Tools -> Board and pick the right port (see main README if you're confused on this part).
 // Click on the top right magnifying glass icon. This is your "Serial Monitor," and you can see the output here.
 
-/* An Arduino program can fully function if it has a setup and loop method.
- * Arduino has a built in main method, so some C++ functionalities are abstracted away from the user.
- * This makes it a lot easier to proceed with your code. For those of you who have never seen code before,
- * my left margin starting with /* is how to write a comment.
- */
-
-// This is another way of writing a comment, except it's one line only. They are useful when you want other people to read your code.
 /* Outside of the setup and loop, we can write our own methods, include libraries, and declare global variables
  * which are just things that the whole code can see (more on these later). Usually, global variables are used to
  * declare pin numbers and instantiate new hardware we will be using, such as a Servo.
