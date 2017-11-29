@@ -16,8 +16,11 @@ The image above is a great markdown of the Uno's structure. If your board is a k
 ## Important Features of the Uno
 A lot of these features may also appear on other boards, as they are __standard to electronics and how they work.__  
 **GND:** When a circuit is looked at locally, ground is simply the one net someone picked to call 0V so that all other voltages are understood to be relative to it. GND is a pin that can be referred to as negative voltage to cancel out the positive voltage. This is why we always need a GND when we have positive voltage going through our circuit.  
-**VIN:** todo  
-**Microcontroller:** todo  
+**VIN:** Your "voltage input." This is called a 9V also on some other Arduino knockoffs, but recommended voltage is 7V-12V. VIN is simply a power pin to supply voltage through. If you are using any board other than an UNO, see https://www.arduino.cc/en/Main/Products?from=Main.Hardware for the recommended voltage (because it's different for each one. If you click on a board they should have their tech specs in the next page.  
+**Microcontroller:** Sometimes, a microcontroller is confused for the whole board. In fact, it's a central processing unit (CPU) that is inexpensive, usually has a dedicated/designated task to run one program, and is embedded into the board. For the sake of what we're doing, this and the processor will be the ones that *remember* (memory) your programs and execute the logic behind it.
+<p align="center">
+  <img src=https://ktechnics.com/wp-content/uploads/2015/12/atmega328p-pu.png width="250"/>
+</p>  
 **Digital:** todo  
 **Analog:** todo  
 **PWM:** The PWM pins are denoted by the tilde (~) markings and also the red check marks on the right. PWM means pulse-width modulation todo
