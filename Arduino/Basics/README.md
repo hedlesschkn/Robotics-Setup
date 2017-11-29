@@ -28,15 +28,24 @@ A lot of these features may also appear on other boards, as they are __standard 
 ## IDE Concepts
 Arduino is a set of C/C++ functions that can be called on your code, which is passed onto its own compiler. Sketches are *.ino* files, and for those who become advanced, you may eventually have to write your own libraries in *.h* files.  
 **What are Libraries?**  
-TODO
-TODO:
-Setting Up Arduino COM ports
+TODO  
+  
+**Setting Up Arduino COM ports and Boards**  
+This step is important, otherwise you won't even be able to run your program. TODO.  
+  
+**The setup() and loop()**  
+An Arduino program can fully function if it has a setup and loop method. Arduino has a built in main method, so some C++ functionalities are abstracted away from the user. This makes it a lot easier to start coding.  
+  
+**Accessing Example Code Provided by Arduino**  
+We have provided some examples in this directory, but it is important to understand that Arduino is all open-source, and provides a lot of tutorials online as well as in the IDE.
+  1. Open your Arduino IDE.
+  2. Go to File --> Examples. You should see Basics, so click on any of those examples to try them out.
+  3. Follow their comments and directions. **In Basics, there is no assemblage of electronics required. All you need to do is connect an Arduino UNO to your computer.**
+  4. As always, if you have any questions or problems, google them. There will most likely be someone who experienced the same thing.
 
-setup / loops
-Writing Your First Program
+## Hardware / Electronics Basics  
+LED  
+Servo Motor  
+DC Motor  
+Ultrasonic Sensor  
 
-Libraries
-
-Example Code Provided by Arduino
-
-Hardware / Electronics Basics
